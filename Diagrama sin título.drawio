@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-03-26T22:57:23.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="SymwnEKQkAbQnQvk3DEl" version="24.2.0" type="device">
+  <diagram name="Página-1" id="i201SbbDeQTns7kvIk68">
+    <mxGraphModel dx="1009" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="242" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dCBsNnLhtKhjVE0DxXCg-2" target="dCBsNnLhtKhjVE0DxXCg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-2" value="&lt;div&gt;Llamar&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;cantidad&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;-ConLetra&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.545;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dCBsNnLhtKhjVE0DxXCg-1" target="dCBsNnLhtKhjVE0DxXCg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dCBsNnLhtKhjVE0DxXCg-4" target="dCBsNnLhtKhjVE0DxXCg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-4" value="&lt;div&gt;Parse&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: initial;&quot;&gt;input&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;to Big-&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; | integer&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="145" y="210" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dCBsNnLhtKhjVE0DxXCg-6" target="dCBsNnLhtKhjVE0DxXCg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-6" value="&lt;div&gt;Extract whole&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: initial;&quot;&gt;number part, divide&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;by powers of 1000,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;get groups of 3&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="155" y="310" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-8" value="&lt;div&gt;Process and&lt;/div&gt;&lt;div&gt;call tri-&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Texto()&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-10" value="&lt;div&gt;&amp;nbsp;Combine results, handle spaces,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;and add language-specific text&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; representations&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dCBsNnLhtKhjVE0DxXCg-8" target="dCBsNnLhtKhjVE0DxXCg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-12" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="245" y="700" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dCBsNnLhtKhjVE0DxXCg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dCBsNnLhtKhjVE0DxXCg-10" target="dCBsNnLhtKhjVE0DxXCg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
